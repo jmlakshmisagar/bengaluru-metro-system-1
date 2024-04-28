@@ -69,7 +69,7 @@ def result():
 
         print("QR code generated successfully.")
 
-        info_label.config(text=f"NO. of Stations to cross : {stops(source,destination)} \n Distance : {distance}\nEstimated time : {time} min\nEstimated amount : {amount} rupees \nCurrent Date : {current_date}", fg="black")
+        info_label.config(text=f"NO. of Stations to cross : {stops(source,destination)}\n Distance : {distance}\nEstimated time : {time} min\nEstimated amount : {amount} rupees \nCurrent Date : {current_date}", fg="black")
 
         show_qr_code()
 
